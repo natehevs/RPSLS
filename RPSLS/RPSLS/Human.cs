@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class Human
+    class Human : Player
     {
         //member variables (Has A)
 
@@ -22,8 +22,10 @@ namespace RPSLS
 
         public void ChooseGesture()
         {
-
+            Console.WriteLine("Please select a move. Rock, Paper, Scissors, Lizard, Spock");
+            gesture = Console.ReadLine();
         }
+    }
 
     }
 }

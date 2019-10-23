@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class Computer
+    class Computer : Player
     {
         //member variables (Has A)
 
-
+        
 
         //constructor (Builder)
 
@@ -20,7 +20,7 @@ namespace RPSLS
         }
         //member methods (Can Do)
 
-        public void RandomGesture()
+        public void ChooseGesture()
         {
 
         }

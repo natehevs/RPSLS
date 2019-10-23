@@ -25,7 +25,12 @@ namespace RPSLS
         }
         //member methods (Can Do)
 
-        public void GetGesture()
+        public void ChoosePlayers()
+        {
+
+        }
+
+        public void ChooseGesture()
         {
 
         }
